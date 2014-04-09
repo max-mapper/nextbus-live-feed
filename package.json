@@ -1,6 +1,6 @@
 {
-  "name": "nextbus-live-feed",
-  "version": "1.0.0",
+  "name": "gst",
+  "version": "1.0.1",
   "description": "live stream vehicle locations from the nextbus API",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,14 @@
     "dat": "^3.0.0",
     "request": "^2.34.0",
     "xml2js": "^0.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/nextbus-live-feed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/nextbus-live-feed/issues"
+  },
+  "homepage": "https://github.com/maxogden/nextbus-live-feed"
 }
