@@ -1,13 +1,13 @@
 {
   "name": "nextbus-live-feed",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "live stream vehicle locations from the nextbus API",
   "main": "index.js",
   "scripts": {
     "start": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "max ogden",
+  "license": "BSD",
   "dependencies": {
     "dat": "^3.0.0",
     "request": "^2.34.0",

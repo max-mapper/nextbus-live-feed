@@ -7,6 +7,10 @@ module.exports = function (agency, interval, onNewLocation) {
   
   makeRequest()
   
+  // this works by:
+  // 1. using &t=0 to get all bus locations
+  // 2. converting each location line from XML to JSON
+  // 3. taking the secsSinceReport relative time and turning it into an absolute timestamp (lastUpdated)
   function makeRequest() {
     request(baseURL + "&t=0", function(err, resp, xml) {
       if (err) return onNewLocation(err)
