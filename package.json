@@ -1,5 +1,5 @@
 {
-  "name": "gst",
+  "name": "nextbus",
   "version": "1.0.1",
   "description": "live stream vehicle locations from the nextbus API",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {
-    "dat": "^3.0.0",
+    "dat": "^4.4.0",
     "request": "^2.34.0",
     "xml2js": "^0.4.1"
   },
