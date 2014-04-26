@@ -10,6 +10,7 @@
   "license": "BSD",
   "dependencies": {
     "dat": "^4.4.3",
+    "leveldown-hyper": "^0.10.2",
     "request": "^2.34.0",
     "xml2js": "^0.4.1"
   },
