@@ -9,8 +9,7 @@
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {
-    "dat": "^4.5.1",
-    "leveldown-hyper": "^0.10.2",
+    "dat": "maxogden/dat",
     "request": "^2.34.0",
     "xml2js": "^0.4.1"
   },
