@@ -7,7 +7,7 @@ get vehicle locations from the nextbus API as JSON
 ```
   var feed = require('nextbus-live-feed')
   var fetchEvery = 1000 * 5
-  feed('actransit', fetchEver, function onLocation(err, location) {
+  feed('actransit', fetchEvery, function onLocation(err, location) {
     
   })
 ```
