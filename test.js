@@ -11,9 +11,9 @@ var dat = new Dat('./data/', function(err) {
       // do nothing
     })
   })
-})
-
-dat.listen(port, function(err) {
-  if (err) return console.error('could not listen', err)
-  console.log('listening on', port)
+  
+  dat.listen(port, function(err) {
+    if (err) return console.error('could not listen', err)
+    console.log('listening on', port)
+  })
 })
